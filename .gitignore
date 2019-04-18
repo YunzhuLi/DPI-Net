@@ -1,0 +1,7 @@
+__pycache__
+log/
+data*/
+dump_*/
+.idea
+*.swp
+*.swo
