@@ -18,7 +18,7 @@ Rollout from our learned model
 
 ## Installation
 
-This codebase is tested with Ubuntu 16.04 LTS, Python 3.6.8, PyTorch 1.0.0, and CUDA 9.0. Other versions might work but are not guaranteed.
+This codebase is tested with Ubuntu 16.04 LTS, Python 3.6.8, PyTorch 1.0.0, and CUDA 9.1. Other versions might work but are not guaranteed.
 
 ### Install PyFleX
 
