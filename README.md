@@ -3,7 +3,7 @@
 Yunzhu Li, Jiajun Wu, Russ Tedrake, Joshua B. Tenenbaum, Antonio Torralba 
 
 **ICLR 2019**
-[[website]](http://dpi.csail.mit.edu/) [[paper]](https://arxiv.org/abs/1810.01566) [[video]](https://www.youtube.com/watch?v=Y1kEAL7H-OQ)
+[[website]](http://dpi.csail.mit.edu/) [[paper]](http://dpi.csail.mit.edu/dpi-paper.pdf) [[video]](https://www.youtube.com/watch?v=FrPpP7aW3Lg)
 
 ## Demo
 
