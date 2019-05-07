@@ -17,8 +17,13 @@ Rollout from our learned model
 
 
 ## Installation
-
 This codebase is tested with Ubuntu 16.04 LTS, Python 3.6.8, PyTorch 1.0.0, and CUDA 9.1. Other versions might work but are not guaranteed.
+
+Clone this repo:
+```
+https://github.com/YunzhuLi/DPI-Net.git
+cd DPI-Net
+```
 
 ### Install PyFleX
 
@@ -35,6 +40,11 @@ Test PyFleX examples
     cd ${PYFLEXROOT}/bindings/examples
     python test_FluidFall.py
 
+### Install Dependencies
+For Conda users, we provide an installation script:
+```
+bash ./scripts/conda_deps.sh
+```
 
 ## Evaluation
 
