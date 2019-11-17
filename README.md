@@ -17,22 +17,30 @@ Rollout from our learned model
 
 
 ## Installation
-This codebase is tested with Ubuntu 16.04 LTS, Python 3.6.8, PyTorch 1.0.0, and CUDA 9.1. Other versions might work but are not guaranteed.
 
 Clone this repo:
 ```
 https://github.com/YunzhuLi/DPI-Net.git
 cd DPI-Net
+git submodule update --init --recursive
+```
+
+### Install Dependencies if using Conda
+For Conda users, we provide an installation script:
+```
+bash ./scripts/conda_deps.sh
 ```
 
 ### Install PyFleX
 
-Add and compile PyFleX submodule
+Add environment variables
 
-    git submodule update --init --recursive
     export PYFLEXROOT=${PWD}/PyFleX
     export PYTHONPATH=${PYFLEXROOT}/bindings/build:$PYTHONPATH
     export LD_LIBRARY_PATH=${PYFLEXROOT}/external/SDL2-2.0.4/lib/x64:$LD_LIBRARY_PATH
+
+If you are using Ubuntu 16.04 LTS and CUDA 9.1, you can use the following command for compilation. If you are using **other versions** of Ubuntu or CUDA, we provide the pre-built Docker image and Dockerfile for compiling PyFleX. Please refer to our [Docker](PyFleX/bindings/docs/docker.md) page. 
+
     cd PyFleX/bindings; mkdir build; cd build; cmake ..; make -j
 
 Test PyFleX examples
@@ -40,11 +48,6 @@ Test PyFleX examples
     cd ${PYFLEXROOT}/bindings/examples
     python test_FluidFall.py
 
-### Install Dependencies
-For Conda users, we provide an installation script:
-```
-bash ./scripts/conda_deps.sh
-```
 
 ## Evaluation
 
