@@ -43,7 +43,7 @@ If you are using Ubuntu 16.04 LTS and CUDA 9.1, you can use the following comman
 
     cd PyFleX/bindings; mkdir build; cd build; cmake ..; make -j
 
-If you are using **other versions** of Ubuntu or CUDA, we provide the pre-built Docker image and Dockerfile for compiling PyFleX. Please refer to our [Docker](https://github.com/YunzhuLi/PyFleX/blob/master/bindings/docs/docker.md) page. Note that you do not have to reclone PyFleX again as it has been included as a submodule of DPI-Net.
+If you are using **newer versions** of Ubuntu or CUDA, we provide the pre-built Docker image and Dockerfile for compiling PyFleX. After compilation, you will be able to use PyFleX outside docker. Please refer to our [Docker](https://github.com/YunzhuLi/PyFleX/blob/master/bindings/docs/docker.md) page. Note that you do not have to reclone PyFleX again as it has been included as a submodule of DPI-Net.
 
 ### Test PyFleX examples
 
