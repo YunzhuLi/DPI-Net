@@ -15,6 +15,17 @@ Rollout from our learned model
 
 ![](imgs/sim_FluidShake.gif)  ![](imgs/sim_RiceGrip.gif)
 
+## Updates
+
+**(2020-9-8) An improved version of DPI-Net**
+
+You may also take a look at the following repo that we released for training and evaluating the particle dynamics networks, where we made some modifications on top of DPI-Net to make long-term predictions more stable.
+
+[https://github.com/YunzhuLi/VGPL-Dynamics-Prior](https://github.com/YunzhuLi/VGPL-Dynamics-Prior)
+
+This section discussed the difference between DPI-Net and VGPL-Dynamics-Prior.
+
+[https://github.com/YunzhuLi/VGPL-Dynamics-Prior#difference-between-this-repo-and-dpi-net](https://github.com/YunzhuLi/VGPL-Dynamics-Prior#difference-between-this-repo-and-dpi-net)
 
 ## Installation
 
